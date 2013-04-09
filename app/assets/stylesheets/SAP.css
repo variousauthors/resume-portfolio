@@ -1,0 +1,54 @@
+
+.outer {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.company-profile {
+  padding: 10px;
+  width: 549px !important;
+}
+
+.company-name {
+  border: 2px solid #CCCCCC;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-left: 30px;
+  background-color: #fff;
+}
+
+.title {
+  color: #0088AA;
+}
+
+.status {
+  color: #00AA00;
+  float: right;
+  position: relative;
+  right: 16px;
+  top: 14px;
+}
+
+.gutter-for-icon {
+  width: 0px !important;
+  margin-left: 5px !important;
+  float: left;
+  margin-top: 5px !important;
+
+}
+
+.work-statement {
+  border-bottom: solid 2px #ccc;
+  border-right: solid 2px #ccc;
+  border-left: solid 2px #ccc;
+  padding: 2px;
+  background-color: #fff;
+}
+
+.statement {
+  border-radius: 5px;
+  margin-left: 23px !important;
+  padding: 2px;
+  width: 260px !important;
+}
