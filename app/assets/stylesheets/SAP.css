@@ -4,6 +4,19 @@
   border-radius: 5px;
 }
 
+.row.programming-experience.section-header {
+
+}
+
+.row.barista-experience {
+  position: relative;
+  top: -364px;
+}
+
+.row.programming-experience {
+
+}
+
 .company-profile {
   padding: 10px;
   width: 549px !important;
@@ -52,3 +65,4 @@
   padding: 2px;
   width: 260px !important;
 }
+
