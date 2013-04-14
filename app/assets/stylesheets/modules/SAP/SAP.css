@@ -1,20 +1,30 @@
 
-.outer {
-  background-color: #eee;
-  border-radius: 5px;
+.outer.grey-border {
+  background-color: #EEEEEE;
+  border-radius: 5px 5px 5px 5px;
+  height: 668px !important;
+  margin-bottom: 15px;
 }
 
 .row.programming-experience.section-header {
 
 }
 
-.row.barista-experience {
-  position: relative;
-  top: -364px;
+.programming-experience.section-header > .span6 {
+  width: 550px;
 }
 
-.row.programming-experience {
+.ninja {
+  float: left;
+  margin: 15px;
+}
 
+.programming-experience > .span6 > h3 {
+  position: relative;
+  top: 47px;
+}
+.programming-experience.section-description > .span6 {
+  width: 550px !important;
 }
 
 .company-profile {
@@ -63,6 +73,15 @@
   border-radius: 5px;
   margin-left: 23px !important;
   padding: 2px;
-  width: 260px !important;
+  width: 339px !important;
 }
 
+#webify-technology.span6.company-profile {
+  position: relative;
+  top: 12px;
+}
+
+#lastobelus-consulting.span6.company-profile {
+  position: relative;
+  top: -268px;
+}

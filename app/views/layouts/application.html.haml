@@ -43,10 +43,9 @@
               %li= link_to "wewanttoknow", page_path("wewanttoknow")
           / /.nav-collapse
     .container
-      .row.outer
-        .span12
-          = bootstrap_flash
-          = yield
+      .bootstrap-annex
+        = bootstrap_flash
+        = yield
         / /.span
       / /.row
       %footer
