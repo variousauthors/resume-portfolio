@@ -2,8 +2,17 @@
 .outer.grey-border {
   background-color: #EEEEEE;
   border-radius: 5px 5px 5px 5px;
-  height: 668px !important;
   margin-bottom: 15px;
+}
+
+.ninja, .milk {
+  float: left;
+  margin: 15px;
+}
+
+.span6 > h3 {
+  position: relative;
+  top: 47px;
 }
 
 .company-profile {
@@ -30,6 +39,10 @@
   position: relative;
   right: 16px;
   top: 14px;
+}
+
+.status.international {
+  right: 25px;
 }
 
 .gutter-for-icon {

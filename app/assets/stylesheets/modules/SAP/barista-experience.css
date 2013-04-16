@@ -1,0 +1,13 @@
+#barista-experience.row.outer.grey-border {
+  height: 425px;
+}
+
+#barista-experience .span6.company-profile.right {
+  position: relative;
+  top: -275px;
+}
+
+#barista-experience .span6.company-profile.left {
+  position: relative;
+  top: -19px;
+}

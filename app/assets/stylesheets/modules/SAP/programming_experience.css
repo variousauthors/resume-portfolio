@@ -3,19 +3,14 @@
   height: 668px;
 }
 
+#programming-experience > .span12 {
+  height: 668px;
+}
+
 #programming-experience .section-header > .span6 {
   width: 550px;
 }
 
-.ninja {
-  float: left;
-  margin: 15px;
-}
-
-#programming-experience .span6 > h3 {
-  position: relative;
-  top: 47px;
-}
 #programming-experience .section-description > .span6 {
   width: 550px;
 }
