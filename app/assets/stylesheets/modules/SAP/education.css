@@ -1,0 +1,8 @@
+#education .span6.company-profile.right {
+  position: relative;
+  top: -234px;
+}
+
+#education > .span12 {
+  height: 501px;
+}
