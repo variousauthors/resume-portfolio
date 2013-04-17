@@ -56,10 +56,5 @@ StyledPortfolio::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 
-  get 'pages/home' => 'high_voltage/pages#show', :id => 'home'
-  get 'pages/SAP' => 'high_voltage/pages#show', :id => 'SAP'
-  get 'pages/wewanttoknow' => 'high_voltage/pages#show', :id => 'wewanttoknow'
-  get 'pages/icons' => 'high_voltage/pages#show', :id => 'icons'
-  root :to => 'high_voltage/pages#show', :id => 'home'
 
 end
