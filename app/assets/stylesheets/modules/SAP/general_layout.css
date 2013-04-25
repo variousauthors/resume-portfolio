@@ -1,4 +1,18 @@
 
+@media print {
+
+  .span6 {
+    width: 600px;
+  }
+
+
+  .outer.grey-border {
+    border: 2px solid;
+  }
+  
+
+}
+
 .outer.grey-border {
   background-color: #EEEEEE;
   border-radius: 5px 5px 5px 5px;
