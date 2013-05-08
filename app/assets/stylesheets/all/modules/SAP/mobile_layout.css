@@ -1,0 +1,80 @@
+@media print {
+
+  .header * {
+    border:1px solid #0000AA;
+  }
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .outer .span6 {
+    width: 700px !important;
+    border:1px solid #AA0000;
+    padding:0px;
+  }
+
+  .outer.grey-border {
+    page-break-after: avoid;
+  }
+
+}
+
+@media print {
+  .outer.grey-border {
+    border: 2px solid #AA00AA;
+  }
+}
+
+/* applies to desktop */
+@media (min-width: 1200px) { }
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .outer.grey-border {
+    border: 2px solid #00AAAA;
+  }
+}
+
+/* applies to printing in Chrome */
+@media (max-width: 767px) {
+  .header * {
+    border:1px solid #0000AA;
+  }
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .outer .span6 {
+    width: 700px !important;
+    border:1px solid #AA0000;
+    padding:0px;
+  }
+
+  .outer.grey-border {
+    page-break-after: avoid;
+  }
+}
+
+/* applies to print-preview styles in firefox */
+@media (max-width: 480px) {
+  .header * {
+    border:1px solid #0000AA;
+  }
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .outer .span6 {
+    width: 700px !important;
+    border:1px solid #AA0000;
+    padding:0px;
+  }
+
+  .outer.grey-border {
+    page-break-after: avoid;
+  }
+
+}
+

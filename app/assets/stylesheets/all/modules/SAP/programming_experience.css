@@ -1,25 +1,27 @@
-#programming-experience .outer.grey-border {
-  height: 668px;
-}
+@media (min-width: 1200px) {
+  #programming-experience .outer.grey-border {
+    height: 668px;
+  }
 
-#programming-experience > .span12 {
-  height: 668px;
-}
+  #programming-experience > .span12 {
+    height: 668px;
+  }
 
-#programming-experience .section-header > .span6 {
-  width: 550px;
-}
+  #programming-experience .section-header > .span6 {
+    width: 550px;
+  }
 
-#programming-experience .section-description > .span6 {
-  width: 550px;
-}
+  #programming-experience .section-description > .span6 {
+    width: 550px;
+  }
 
-#webify-technology.span6.company-profile {
-  position: relative;
-  top: 12px;
-}
+  #webify-technology.span6.company-profile {
+    position: relative;
+    top: 12px;
+  }
 
-#lastobelus-consulting.span6.company-profile {
-  position: relative;
-  top: -268px;
+  #lastobelus-consulting.span6.company-profile {
+    position: relative;
+    top: -268px;
+  }
 }

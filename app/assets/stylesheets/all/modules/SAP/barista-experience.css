@@ -1,17 +1,19 @@
-#barista-experience > .span12 {
-  height: 425px;
-}
+@media (min-width: 1200px) { 
+  #barista-experience > .span12 {
+    height: 425px;
+  }
 
-#barista-experience.row.outer.grey-border {
-  height: 425px;
-}
+  #barista-experience.row.outer.grey-border {
+    height: 425px;
+  }
 
-#barista-experience .span6.company-profile.right {
-  position: relative;
-  top: -275px;
-}
+  #barista-experience .span6.company-profile.right {
+    position: relative;
+    top: -275px;
+  }
 
-#barista-experience .span6.company-profile.left {
-  position: relative;
-  top: -19px;
+  #barista-experience .span6.company-profile.left {
+    position: relative;
+    top: -19px;
+  }
 }

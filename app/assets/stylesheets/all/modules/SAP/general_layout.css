@@ -1,68 +1,70 @@
-.outer.grey-border {
-  background-color: #EEEEEE;
-  border-radius: 5px 5px 5px 5px;
-  margin-bottom: 15px;
-  page-break-after: always;
-}
+@media (min-width: 1200px) {
+  .outer.grey-border {
+    background-color: #EEEEEE;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 15px;
+    page-break-after: always;
+  }
 
-.ninja, .milk, .muscle {
-  float: left;
-  margin: 15px;
-}
+  .ninja, .milk, .muscle {
+    float: left;
+    margin: 15px;
+  }
 
-.span6 > h3 {
-  position: relative;
-  top: 47px;
-}
+  .span6 > h3 {
+    position: relative;
+    top: 47px;
+  }
 
-.company-profile {
-  padding: 10px;
-}
+  .company-profile {
+    padding: 10px;
+  }
 
-.company-name {
-  border: 2px solid #CCCCCC;
-  border-radius: 5px 5px 0 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-left: 30px;
-  background-color: #fff;
-}
+  .company-name {
+    border: 2px solid #CCCCCC;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-left: 30px;
+    background-color: #fff;
+  }
 
-.title {
-  color: #0088AA;
-}
+  .title {
+    color: #0088AA;
+  }
 
-.status {
-  color: #00AA00;
-  float: right;
-  position: relative;
-  right: 16px;
-  top: 14px;
-}
+  .status {
+    color: #00AA00;
+    float: right;
+    position: relative;
+    right: 16px;
+    top: 14px;
+  }
 
-.status.international {
-  right: 25px;
-}
+  .status.international {
+    right: 25px;
+  }
 
-.gutter-for-icon {
-  width: 0px !important;
-  margin-left: 5px !important;
-  float: left;
-  margin-top: 5px !important;
+  .gutter-for-icon {
+    width: 0px !important;
+    margin-left: 5px !important;
+    float: left;
+    margin-top: 5px !important;
 
-}
+  }
 
-.work-statement {
-  border-bottom: solid 2px #ccc;
-  border-right: solid 2px #ccc;
-  border-left: solid 2px #ccc;
-  padding: 2px;
-  background-color: #fff;
-}
+  .work-statement {
+    border-bottom: solid 2px #ccc;
+    border-right: solid 2px #ccc;
+    border-left: solid 2px #ccc;
+    padding: 2px;
+    background-color: #fff;
+  }
 
-.statement {
-  border-radius: 5px;
-  margin-left: 23px !important;
-  padding: 2px;
-  width: 339px !important;
+  .statement {
+    border-radius: 5px;
+    margin-left: 23px !important;
+    padding: 2px;
+    width: 339px !important;
+  }
 }
