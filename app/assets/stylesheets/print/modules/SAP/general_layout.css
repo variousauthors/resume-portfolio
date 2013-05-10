@@ -1,0 +1,133 @@
+
+@media print {
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .outer .span6 {
+    width: 700px !important;
+    padding:0px;
+  }
+
+  .outer.grey-border {
+    page-break-after: avoid;
+  }
+
+  .company-profile {
+    clear:both;
+  }
+
+  .work-statement .gutter-for-icon { width: 5%; }
+  .work-statement .statement { width: 65%; }
+  .work-statement .details { width: 25%; }
+
+  .work-statement .gutter-for-icon,
+  .work-statement .statement,
+  .work-statement .details {
+    float: left;
+    margin: 5px;
+  }
+
+  .work-statement .details,
+  .work-statement .gutter-for-icon {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .work-statement .statement { width: 400px; }
+
+  .work-statement:before { clear: both; display: table; content:""; }
+  .work-statement:after { clear: both; display: table; content:""; }
+
+  .work-statement {
+    width: 95%;
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    padding:2px;
+  }
+
+  .company-profile .row {
+    width: 95%;
+  }
+
+  .company-name {
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px 5px 0 0;
+    line-height: 40px;
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+
+  .company-name .status {
+    padding-right: 20px;
+    float: right;
+    color: #00AA00;
+  }
+
+  .company-name .title {
+    padding-left: 20px;
+    color: #0088AA;
+  }
+
+  .outer.grey-border {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+    page-break-after: always;
+  }
+}
+
+@media print {
+  .outer.grey-border {
+    border: 2px solid #AA00AA;
+  }
+}
+
+/* applies to desktop */
+@media (min-width: 1200px) { }
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .outer.grey-border {
+    border: 2px solid #00AAAA;
+  }
+}
+
+/* applies to printing in Chrome */
+@media (max-width: 767px) {
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .outer .span6 {
+    width: 700px !important;
+    border:1px solid #AA0000;
+    padding:0px;
+  }
+
+  .outer.grey-border {
+    page-break-after: avoid;
+  }
+}
+
+/* applies to print-preview styles in firefox */
+@media (max-width: 480px) {
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .outer .span6 {
+    width: 700px !important;
+    border:1px solid #AA0000;
+    padding:0px;
+  }
+
+  .outer.grey-border {
+    page-break-after: avoid;
+  }
+
+}
+
