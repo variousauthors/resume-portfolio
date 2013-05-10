@@ -29,16 +29,16 @@
     = favicon_link_tag 'favicon.ico', :rel => 'shortcut icon'
   %body
     .everyone
-      .navbar
-        = render 'pages/SAP/header'
+      .cover-letter
       .container
         .bootstrap-annex
           = bootstrap_flash
+          = render 'pages/SAP/cover-letter'
           = yield
           / /.span
         / /.row
         %footer
-          %p © Company 2013
+          = render 'pages/SAP/header'
       / /container
       /
         Javascripts

@@ -6,6 +6,19 @@
     page-break-after: always;
   }
 
+  .text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .text img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #;
+  }
+
   .ninja, .milk, .muscle {
     float: left;
     margin: 15px;

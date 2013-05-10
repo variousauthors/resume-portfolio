@@ -1,6 +1,19 @@
 
 @media print {
 
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .cover-letter {
+    font-size: 14px;
+  }
+
+  body {
+    font-size:13px;
+  }
+
   .header .span3 {
     border-radius: 0px 10px 0px 0px;
   }
@@ -14,19 +27,36 @@
     page-break-after: avoid;
   }
 
+  .text img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #;
+  }
+
   .company-profile {
     clear:both;
   }
 
+  .section-description p {
+    margin-right:20px;
+  }
+
+  .section-header img {
+    float: left;
+    margin-right:10px;
+    margin-bottom:10px;
+  }
+
   .work-statement .gutter-for-icon { width: 5%; }
-  .work-statement .statement { width: 65%; }
-  .work-statement .details { width: 25%; }
+  .work-statement .statement { width: 68%; }
+  .work-statement .details { width: 24%; }
 
   .work-statement .gutter-for-icon,
   .work-statement .statement,
   .work-statement .details {
     float: left;
-    margin: 5px;
+    margin: 0px 5px 5px 0px;
   }
 
   .work-statement .details,
@@ -35,7 +65,13 @@
     padding-left: 10px;
   }
 
-  .work-statement .statement { width: 400px; }
+  .work-statement .statement { 
+    width: 420px;
+  }
+
+  .work-statement .statement p {
+    margin:0px;
+  }
 
   .work-statement:before { clear: both; display: table; content:""; }
   .work-statement:after { clear: both; display: table; content:""; }
@@ -49,6 +85,7 @@
 
   .company-profile .row {
     width: 95%;
+    margin: 0px;
   }
 
   .company-name {
@@ -77,22 +114,22 @@
     padding: 10px;
     page-break-after: always;
   }
-}
 
-@media print {
-  .outer.grey-border {
-    border: 2px solid #AA00AA;
+  #assurance-qualite { display:none; }
+
+  .header * {
+    border: 1px solid #0088AA;
+  }
+
+  .header [class*="span"] {
+    float: left;
+    margin-left: 30px;
+    min-height: 1px;
   }
 }
 
 /* applies to desktop */
 @media (min-width: 1200px) { }
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .outer.grey-border {
-    border: 2px solid #00AAAA;
-  }
-}
 
 /* applies to printing in Chrome */
 @media (max-width: 767px) {
