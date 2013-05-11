@@ -4,6 +4,10 @@
     margin-top: 20px;
   }
 
+  .status i {
+    color: black;
+  }
+
   footer#my-footer {
     background: #0088AA;
     margin-top: -150px;
