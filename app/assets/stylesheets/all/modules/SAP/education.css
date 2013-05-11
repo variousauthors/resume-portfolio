@@ -1,6 +1,11 @@
 #education .span6.company-profile.right {
   position: relative;
-  top: -234px;
+  top: -215px;
+}
+
+.span6.company-profile.left {
+  position: relative;
+  top: 19px;
 }
 
 #education > .span12 {

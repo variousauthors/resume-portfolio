@@ -1,4 +1,17 @@
 @media (min-width: 1200px) {
+
+  .everyone {
+    margin-top: 20px;
+  }
+
+  footer#my-footer {
+    background: #0088AA;
+    margin-top: -150px;
+    height: 150px;
+    clear: both;
+    position:relative;
+  }
+
   .outer.grey-border {
     background-color: #EEEEEE;
     border-radius: 5px 5px 5px 5px;
