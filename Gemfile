@@ -13,7 +13,6 @@ gem 'pg'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem "twitter-bootstrap-rails"
   gem "font-awesome-rails"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -22,6 +21,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem "twitter-bootstrap-rails"
 gem 'jquery-rails'
 gem 'high_voltage'
 gem "haml-rails"
