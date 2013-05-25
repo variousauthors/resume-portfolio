@@ -1,25 +1,12 @@
 
 @media print {
 
-  footer {
-    position: fixed;
-    bottom: 0px;
-  }
-
-  .cover-letter {
-    font-size: 14px;
-  }
-
   body {
     font-size: 13px;
   }
 
   footer {
     font-size: 11px;
-  }
-
-  .header .span3 {
-    border-radius: 0px 10px 0px 0px;
   }
 
   .outer .span6 {
@@ -30,17 +17,6 @@
   .outer.grey-border {
     page-break-after: avoid;
     min-height: 1000px;
-  }
-
-  .text img {
-    float: left;
-    margin-right: 10px;
-    border-radius: 10px;
-    border: 1px solid #;
-  }
-
-  .status i {
-    color: black;
   }
 
   .company-profile {
@@ -127,25 +103,8 @@
 
   #assurance-qualite { display:none; }
 
-  .header [class*="span"] {
-    float: left;
-    margin-left: 30px;
-    min-height: 1px;
-  }
-
-  .header .span12 {
-    padding-top: 20px;
-  }
-
-  .header .words {
-    width: 200px;
-    border-left: 4px solid #00AA00;
-    padding-left: 10px;
-  }
-
-  .header .name {
-    font-size: 14px;
-    color: #0088AA;
+  .status i {
+    color: black;
   }
 
 }

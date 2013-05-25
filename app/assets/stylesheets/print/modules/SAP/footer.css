@@ -1,0 +1,32 @@
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .header .span3 {
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .header [class*="span"] {
+    float: left;
+    margin-left: 30px;
+    min-height: 1px;
+  }
+
+  .header .span12 {
+    padding-top: 20px;
+  }
+
+  .header .words {
+    width: 200px;
+    border-left: 4px solid #00AA00;
+    padding-left: 10px;
+  }
+
+  .header .name {
+    font-size: 14px;
+    color: #0088AA;
+  }
+
+

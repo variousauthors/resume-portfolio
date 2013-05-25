@@ -1,131 +1,65 @@
+.ninja, .milk, .muscle {
+  float: left;
+  margin: 15px;
+}
 
-  .everyone {
-    margin-top: 20px;
-  }
+.company-profile {
+  padding: 10px;
+}
 
-  .status i {
-    color: black;
-  }
+.company-name {
+  border: 2px solid #CCCCCC;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-left: 30px;
+  background-color: #fff;
+}
 
-  footer {
-    position: fixed;
-    bottom: 0px;
-    background-color: #ffffff;
-    width:100%;
-    border-top: 2px solid #DDDDDD;
-  }
+.company-name .title {
+  color: #0088AA;
+}
 
-  .outer.grey-border {
-    background-color: #EEEEEE;
-    border-radius: 5px 5px 5px 5px;
-    margin-bottom: 15px;
-    page-break-after: always;
-  }
+.personal-info .title {
 
-  .text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-  }
+}
 
-  .text img {
-    float: left;
-    margin-right: 10px;
-    border-radius: 10px;
-    border: 1px solid;
-  }
+.status {
+  color: #00AA00;
+  float: right;
+  position: relative;
+  right: 16px;
+  top: 14px;
+}
 
-  .ninja, .milk, .muscle {
-    float: left;
-    margin: 15px;
-  }
+.status.international {
+  right: 25px;
+}
 
-  .span6 {
-    width: 548px;
-  }
+.status i {
+  color: black;
+}
 
-  .span2 {
-    width: 169px;
-  }
+.gutter-for-icon {
+  width: 0px !important;
+  margin-left: 5px !important;
+  float: left;
+  margin-top: 5px !important;
 
-  .span6 > h3 {
-    position: relative;
-    top: 47px;
-  }
+}
 
-  .company-profile {
-    padding: 10px;
-  }
+.work-statement {
+  border-bottom: solid 2px #ccc;
+  border-right: solid 2px #ccc;
+  border-left: solid 2px #ccc;
+  padding: 2px;
+  background-color: #fff;
+}
 
-  .company-name {
-    border: 2px solid #CCCCCC;
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-left: 30px;
-    background-color: #fff;
-  }
+.statement {
+  border-radius: 5px;
+  margin-left: 23px !important;
+  padding: 2px;
+  width: 339px !important;
+}
 
-  .company-name .title {
-    color: #0088AA;
-  }
-
-  .personal-info .title {
-  
-  }
-
-  .status {
-    color: #00AA00;
-    float: right;
-    position: relative;
-    right: 16px;
-    top: 14px;
-  }
-
-  .status.international {
-    right: 25px;
-  }
-
-  .gutter-for-icon {
-    width: 0px !important;
-    margin-left: 5px !important;
-    float: left;
-    margin-top: 5px !important;
-
-  }
-
-  .work-statement {
-    border-bottom: solid 2px #ccc;
-    border-right: solid 2px #ccc;
-    border-left: solid 2px #ccc;
-    padding: 2px;
-    background-color: #fff;
-  }
-
-  .statement {
-    border-radius: 5px;
-    margin-left: 23px !important;
-    padding: 2px;
-    width: 339px !important;
-  }
-
-  .header [class*="span"] {
-    float: left;
-    margin-left: 30px;
-    min-height: 1px;
-  }
-
-  .header .span12 {
-    padding-top: 20px;
-  }
-
-  .header .words {
-    width: 200px;
-    border-left: 4px solid #00AA00;
-    padding-left: 10px;
-  }
-
-  .header .name {
-    font-size: 22px;
-    color: #0088AA;
-  }
