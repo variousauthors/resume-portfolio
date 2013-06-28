@@ -1,38 +1,41 @@
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
 
-  .text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-  }
+.awesome-links {
+  margin-top: 20px;
+}
 
-  .text img {
-    float: left;
-    margin-right: 10px;
-    border-radius: 10px;
-    border: 1px solid;
-  }
+.text img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
 
-  .cover-letter-header {
-    margin-top: 10px;
-    display:none;
-  }
+.cover-letter-header {
+  margin-top: 10px;
+  display:none;
+}
 
-  .receiver-info {
-    width: -moz-fit-content;
-    margin-bottom: 50px;
-    margin-top: 10px;
-  }
+.receiver-info {
+  width: -moz-fit-content;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
 
-  .receiver-info .agent {
-    margin-bottom: 5px;
-  }
+.receiver-info .agent {
+  margin-bottom: 5px;
+}
 
-  .receiver-info .company {
-    float: left;
-    margin-right: 30px;
-  }
+.receiver-info .company {
+  float: left;
+  margin-right: 30px;
+}
 
-  .receiver-info .address {
-    float: right;
-  }
+.receiver-info .address {
+  float: right;
+}
 
