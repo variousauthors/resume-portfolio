@@ -30,10 +30,12 @@
   .span4
     .row-fluid
       .span12.awesome-links
-        %h4 Awesome Links
+        %h4{ title: 'someday I hope to need an accordion for this list'} Awesome Links
         %ul.links.nav.nav-list
           %li.nav-header.github
-            %a my coolest repos
+            %a{ href: 'https://github.com/variousauthors' }
+              %i.icon-github
+              my coolest repos
           %li
             .link
               %a{ href: 'https://github.com/variousauthors/resume-portfolio' } resume-portfolio
@@ -54,16 +56,10 @@
             .link
               %a{ href: 'https://github.com/variousauthors/vash' } vash
               %small command-line interpreter written in C.
-          %li
-            .link
-              %a{ href: '' }
-              %small
-          %li
-            .link
-              %a{ href: '' }
-              %small
           %li.nav-header.github
-            %a websites I helped build
+            %a{ href: 'http://webifytechnology.com/' }
+              %i.icon-html5
+              websites I helped build
           %li
             .link
               %a{ href: '' } elysian coffee
@@ -77,11 +73,17 @@
               %a{ href: '' }
               %small
           %li.nav-header.github
-            %a praise I've received
+            %a
+              %i.icon-comment-alt
+              praise I've received
           %li
             .link
               %a{ href: 'http://www.freeindiegam.es/2013/05/mandala-arrogant-gamer/' } freeindiegam.es
               %small chose to share my game.
+          %li
+            .link
+              %a{ href: 'http://www.rockpapershotgun.com/2013/05/12/live-free-play-hard-thousands-of-gameplays-and-graphics/' } rockpapershotgun.com
+              %small scroll waaaaaay down.
           %li
             .link
               %a{ href: 'http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=22995' } ludumdare.com

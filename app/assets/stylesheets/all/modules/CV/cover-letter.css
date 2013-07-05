@@ -4,6 +4,23 @@
   margin-right: 20px;
 }
 
+li:not(.github) {
+  margin-left: 10px;
+}
+
+.nav-header.github > a {
+  display: inline;
+}
+
+.nav-header.github > a:hover {
+  background-color: transparent;
+}
+
+.awesome-links i {
+  color: black;
+  font-size: 15px;
+}
+
 .awesome-links {
   margin-top: 20px;
 }
