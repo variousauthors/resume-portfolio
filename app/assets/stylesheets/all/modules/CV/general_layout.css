@@ -16,6 +16,14 @@
   background-color: #fff;
 }
 
+.linky {
+  color: #0088AA;
+}
+
+.green.highlight {
+  background-color: limegreen;
+}
+
 .company-name .title {
   color: #0088AA;
 }
